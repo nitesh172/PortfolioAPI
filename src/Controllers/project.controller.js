@@ -1,6 +1,7 @@
 const express = require("express")
 
 const router = express.Router()
+const redis = require("../Configs/redis")
 
 const Project = require("../Models/project.model")
 
